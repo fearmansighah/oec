@@ -1,4 +1,4 @@
-# oec
+# OEC Programming Competition
 
 Authors:
 - Chrisna Arie Fawwaz
