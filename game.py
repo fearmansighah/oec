@@ -23,6 +23,7 @@ def main():
     ####################
 
     stone_grid.disp_grid((0,0), 0, boxes, beforeStart, startEnd, "start")
+    print('')
 
     ####################
 
@@ -35,8 +36,8 @@ def main():
     z = 1
     while(z == 1):
 
-        x = int(input('x coord: '))
-        y = int(input('y coord: '))
+        x = ord(input('column letter: ')) - 65
+        y = int(input('row number: '))
 
         # neighbor detection algorithm
         if (x > xdims-1 or y > ydims-1 or x < 0 or y < 0):

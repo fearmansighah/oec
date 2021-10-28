@@ -38,7 +38,7 @@ class grid():
     def init_grid(self):
         beforeStart = "  |"
         for i in range(self.xdims):
-            beforeStart+=f' {i} |' 
+            beforeStart+=f' {chr(65+i)} |' 
 
 
         startEnd = "--+"
