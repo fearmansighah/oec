@@ -1,4 +1,4 @@
-# public
+# test that arie was here
 
 from input_settings import set_size
 from stones import grid
