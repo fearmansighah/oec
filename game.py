@@ -1,3 +1,5 @@
+# public
+
 from input_settings import set_size
 from stones import grid
 
